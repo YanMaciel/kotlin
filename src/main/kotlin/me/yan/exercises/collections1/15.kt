@@ -8,9 +8,9 @@ import me.yan.exercises.loops.readInt
 
 fun main() {
     val vector = mutableListOf<Int>()
-    println("Insira 6 números inteiros para compor seu vetor.")
+    println("Insira 20 números inteiros para compor seu vetor.")
 
-    for (i in 1..6) {
+    for (i in 1..20) {
         print("${i}º número: ")
         val num = readInt()
         vector.add(num)
